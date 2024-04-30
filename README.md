@@ -1,2 +1,2 @@
 # Metaflow_BSP
-Deployment of ML code on Metaflow Framework
+Deployment of BSP ML code on Metaflow Framework
