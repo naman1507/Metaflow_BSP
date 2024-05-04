@@ -1,0 +1,7 @@
+{
+    "main_directory_path" : "/data2/naman/metaflow/",
+    "//input_file_path": "/data2/naman/metaflow/mat_absence_and_ghost_rolling_removed_march_05_24.pkl",
+    "input_file_path" : "/data2/naman/metaflow/00.24.56_01.24.56.txt",
+    "sensor_id_tagnames_mapping" : "/data2/naman/metaflow/Finalised_region_combined_tagnames.xlsx"
+        
+}

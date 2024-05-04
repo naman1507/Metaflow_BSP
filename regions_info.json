@@ -1,0 +1,74 @@
+[
+    {
+        "name": "CVR_L1",
+        "model_path": "/data2/naman/Jan_Feb'24/March/16mm/CVR1/cvr1_pca.pkl",
+        "scaling_path": "/data2/naman/Jan_Feb'24/March/16mm/CVR1/cvr1_scaling.pkl",
+        "columns_path": "/data2/naman/Jan_Feb'24/March/16mm/CVR1/cvr1_columns.pkl",
+        "threshold": 0.99,
+        "max_td": 40,
+        "k": 3
+    },
+    {
+        "name": "CVR_L2",
+        "model_path": "/data2/naman/Jan_Feb'24/March/16mm/CVR2/cvr2_pca.pkl",
+        "scaling_path": "/data2/naman/Jan_Feb'24/March/16mm/CVR2/cvr2_scaling.pkl",
+        "columns_path": "/data2/naman/Jan_Feb'24/March/16mm/CVR2/cvr2_columns.pkl",
+        "threshold": 0.7,
+        "max_td": 5,
+        "k": 2
+    },
+    {
+        "name": "HMD",
+        "model_path": "/data2/naman/Jan_Feb'24/March/16mm/HMD/hmd_pca.pkl",
+        "scaling_path": "/data2/naman/Jan_Feb'24/March/16mm/HMD/hmd_scaling.pkl",
+        "columns_path": "/data2/naman/Jan_Feb'24/March/16mm/HMD/hmd_columns.pkl",
+        "threshold": 0.46,
+        "max_td": 5,
+        "k": 10
+    },
+    {
+        "name": "PinchRoll_L1",
+        "model_path": "/data2/naman/Jan_Feb'24/March/16mm/PinchRoll1/pr1_pca.pkl",
+        "scaling_path": "/data2/naman/Jan_Feb'24/March/16mm/PinchRoll1/pr1_scaling.pkl",
+        "columns_path": "/data2/naman/Jan_Feb'24/March/16mm/PinchRoll1/pr1_columns.pkl",
+        "threshold": 0.57,
+        "max_td": 100,
+        "k": 2
+    },
+    {
+        "name": "PinchRoll_L2",
+        "model_path": "/data2/naman/Jan_Feb'24/March/16mm/PinchRoll2/pr2_pca.pkl",
+        "scaling_path": "/data2/naman/Jan_Feb'24/March/16mm/PinchRoll2/pr2_scaling.pkl",
+        "columns_path": "/data2/naman/Jan_Feb'24/March/16mm/PinchRoll2/pr2_columns.pkl",
+        "threshold": 0.52,
+        "max_td": 40,
+        "k": 2
+    },
+    {
+        "name": "Stand_1-6",
+        "model_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_1-6/stand_1-6_pca.pkl",
+        "scaling_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_1-6/stand_1-6_scaling.pkl",
+        "columns_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_1-6/stand_1-6_columns.pkl",
+        "threshold": 0.381,
+        "max_td": 100,
+        "k": 5
+    },
+    {
+        "name": "Stand_7-12",
+        "model_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_7-12/stand_7-12_pca.pkl",
+        "scaling_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_7-12/stand_7-12_scaling.pkl",
+        "columns_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_7-12/stand_7-12_columns.pkl",
+        "threshold": 0.38,
+        "max_td": 5,
+        "k": 10
+    },
+    {
+        "name": "Stand_13-18",
+        "model_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_13-18/stand_13-18_pca.pkl",
+        "scaling_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_13-18/stand_13-18_scaling.pkl",
+        "columns_path": "/data2/naman/Jan_Feb'24/March/16mm/Stand_13-18/stand_13-18_columns.pkl",
+        "threshold": 0.48,
+        "max_td": 30,
+        "k": 5
+    }
+]

@@ -1,0 +1,3830 @@
+[
+    {
+        "sensor": "[9.226]_Ghost Rolling",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:44]_Master speed percentage",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:4]_L1_DCVR_WORK_DB.DriveIn.SpeedFeedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:5]_L1_DCVR_WORK_DB.DriveIn.TorqueFeedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:6]_L1_DCVR_WORK_DB.DriveOut.SpeedRef",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:17]_L1_PR1_ActSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:18]_L1_PR1_SetSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:19]_L1_PR1_ActTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:20]_L1_PR1_SetTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:21]_L1_CVR KNIVES POSITION",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:35]_L1_DCVR Set Position for PID",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:36]_L1_DCVR Act Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:37]_L1_DCVR Theor speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:38]_L1_DCVR PID OUTPUT",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:40]_Speed from SpeedMeter L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:42]_SpeedMeter measured calib.f.  K L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:71]_L1_PR1 ACTUAL CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:74]_L1_CVR Speed feedback from drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:75]_L1_CVR torque feedback from drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:76]_L1_CVR output current feedback from drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:77]_L1_CVR Speed reference to drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:78]_L1_DCVR Speed feedback from drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:79]_L1_DCVR torque feedback from drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:80]_L1_DCVR output current feedback from drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:81]_L1_DCVR Speed reference to drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.38]_L1_DCVR PH0 StatL1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.39]_L1_DCVR PH01 StatL1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.48]_L1_DCVR L1 Go To Chopping line",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.56]_L1_DCVR PH1 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.57]_L1_DCVR Head Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.58]_L1_DCVR Tail Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.59]_L1_DCVR Bar present at knives cross point",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.60]_L1_DCVR BarOutofShear",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.61]_L1_DCVR Towards Rolling",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.62]_L1_DCVR Towards Chopping",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.63]_L1_DCVR Go To Rolling line",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.166]_OPT Valid Tail before DCVR (Shear 3) L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.184]_L1_DCVR OPT shear Chop  Early  Req flag L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.186]_L1_DCVR OPT Chop cmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.195]_E10PLC01 Mat.det. HMD19 S18 exit L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.196]_E10PLC01 Mat.det. HMD26 CVR entry L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.197]_E10PLC01 Mat.det. HMD27 Looper at FFB entry L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.198]_E10PLC01 Mat.det. HMD28 FFB exit L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.205]_HMD_26 head filter CVR Entry",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.206]_HMD_26 tail  filter CVR Entry",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.211]_CVR Short Piece Travel Line1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.216]_CVR_PH01_NoViewAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.217]_CVR_PH01_BLK",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.221]_L1_PR1 Closing Comand",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.222]_HMD_26 head filter CVR Entry output",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.223]_HMD_26 tail  filter CVR Entry output",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.227]_E35_HMD19 VISION FAULT",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.228]_E35_HMD19 ON WINDOW FAULT",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.229]_E35_HMD19 OFF WINDOW FAULT",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:1]_L1_DCVR First head position",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:2]_L1_DCVR Out.Tail Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:4]_OPT #CVR Tail Cut off length equ L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:22]_OPT #ShrChopReqLength L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:23]_L1_DCVR Req length to chop before DCVR for opt",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:25]_L1_DCVR Remain length before DCVR",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:50]_OPT Langth to be chopped L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.44]_E10PLC01 Mat.det. HMD19 S18 exit L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:76]_FFB Line 1 Loop Height",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:78]_FFB Line 1 Speed Reference (Internal Unit)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.64]_Looper FFB L1 In Ctrl Stop",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.65]_Looper FFB L1Ctrl Start",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.66]_Looper FFB L1 Dwn Mat Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.67]_Looper FFB L1 Ctrl Enabling",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.76]_FFB Line 1 Looper Cmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.79]_Looper FFB L1 HMD 27 Status",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.100]_FFB1CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.114]_E10_HMD_26 material presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.115]_E10_HMD_26 material presence_test",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.118]_HMD26TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.119]_HMD27TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.206]_FFB1 Material Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:16]_FFB1 Head POS for looper",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:17]_FFB1 Looper On dist",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:34]_Line-1 FFB speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:19]_FFB Line 1 Torque Act",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:20]_FFB Line 1 RPM Act",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:21]_FFB Line 1 Line Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:49]_E35DRM01 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:50]_E35DRM01 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:69]_FFB1 Motor Current",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.152]_HMD 19Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.135]_HMD 19Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.153]_HMD 29Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.154]_HMD 29Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.155]_HMD 30 Head Wind Enable L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.156]_HMD 30 Tail Wind Enable L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:59]_OPT #CVR Tail Cut off length equ L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:27]_L2_PR1_ActSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:28]_L2_PR1_SetSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:29]_L2_PR1_ActTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:36]_CVRL-2 KNIVES POSITION",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:46]_L2_DCVR Act Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:49]_L2_DCVR Set Position for PID",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:53]_L2_CVR_Calibr Speed gactor Measured",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:55]_L2_DCVR PID OUTPUT",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:56]_L2_DCVR Theor speed L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:69]_L2_PR1 ACTUAL CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:81]_L2_PR4 ACTUAL CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.32]_E10PLC01 Mat.det. HMD31 FFB exit L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.45]_E10PLC01 Mat.det. HMD29 CVR entry L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.46]_E10PLC01 Mat.det. HMD31 FFB entry L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.76]_L2_DCVR Speed ref enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.79]_L2_DCVR Go To Rolling line",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.83]_L2_DCVR Towards Rolling",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.84]_L2_DCVR Towards Chopping",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.85]_L2_DCVR OPT chop cmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.86]_L2_DCVR BAXC",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.87]_L2_DCVR Head Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.96]_HMD 29Tail Wind Enable L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.97]_L2_DCVR PH0 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.98]_L2_DCVR PH01 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.99]_L2_DCVR PH1 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.104]_L2_DCVR Tail Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.111]_HMD 29Head Wind Enable L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.118]_HMD 30 Head Wind Enable L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.119]_HMD 30 Tail Wind Enable L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.133]_L2_DCVR Bar present at knives cross point",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.134]_L2_DCVR BarOutofShear",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.144]_HMD_29 Tail filter CVR Entry",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.145]_HMD_29 head filter CVR Entry output",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.146]_HMD_29 tail filter CVR Entry output",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.155]_L2_PR1 Closing comand",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.159]_HMD_29 head filter CVR Entry",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.202]_L2_CVR_PH01_NoViewAlarmONS",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.203]_L2_CVR_PH01_NoViewAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.204]_L2_CVR_PH01_BLK",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:9]_L2_DCVR First head position",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:10]_L2_DCVR Remain length before DCVR",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:11]_L2_DCVR Req length to chop before DCVR for opt",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:12]_L2_DCVR Tail Cut off Length",
+        "weight": 1
+    },
+    {
+        "sensor": "[7:43]_L2_DCVR Out.Tail Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:77]_FFB Line 2 Loop Height",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:79]_FFB Line 2 Speed Reference (Internal Unit)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.70]_Looper FFB L2 HMD 27 Status",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.71]_Looper FFB L2 In Ctrl Stop",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.77]_FFB Line 2 Looper Cmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.88]_Looper FFB L2Ctrl Start",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.89]_Looper FFB L2 Dwn Mat Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.90]_Looper FFB L2 Ctrl Enabling",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.116]_E10_HMD_29 material presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.117]_E10_HMD_29 material presence_test",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.138]_HMD30TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.155]_FFB2CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.207]_FFB2 Material Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:18]_FFB2 Head POS for looper",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:19]_FFB2 Looper On dist",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:35]_Line-2 FFB speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:22]_FFB Line 2 Torque Act",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:23]_FFB Line 2 RPM Act",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:24]_FFB Line 2 Line Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:51]_E36DRM01 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:52]_E36DRM01 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:70]_FFB2 Motor Current",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.109]_HMD 19Head Wind Enable L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.110]_HMD 19Tail Wind Enable L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:11]_E35_DCVAH_TheorPos",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:12]_L1_DCVAH Act Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:13]_L1_PR5 Act Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:14]_L1_PR5 Set Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:15]_L1_PR5 Act Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:16]_L1_PR5 Set Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:31]_L1_PR4_ActSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:32]_L1_PR4_SetSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:33]_L1_PR4_ActTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:34]_L1_DCVRD Act Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:59]_E35_CVAH_Actual torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:62]_L1_PR4 Roll Closing Pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:63]_L1_PR5 Roll Closing Pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:68]_E35_CVAH_ActualRotorPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:72]_L1_CVAH ACTUAL CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:73]_E35_DCVAH_Actual torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.25]_L1_DVRD L1 Opt chop command",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.80]_Chopping request for TAIL OPT overshoot",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.82]_L1_DVRD PH0 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.83]_L1_DCVRD PH01 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.84]_L1_DCVRD PH1 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.97]_Valid Tail PH1 L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.101]_Valid tail before CVAH L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.103]_L1_DCVRD_BAR_TRK_DB.IncomingTail",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.112]_DCVAH Pos known L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.120]_L1_DVRD HeadCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.121]_L1_DVRD TailCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.122]_L1_DCVRD Barat knives cross point",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.123]_L1_DCVRD BarOutofShear",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.124]_L1_DVRD PH1 NoViewAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.162]_L1_DCVAH BAXC",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.163]_L1_DCVAH_BAR_TRK_DB.OUT.ValidTailCVAH",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.164]_L1_DCVAH_CUTS_TWC_DB.IN_BarAtKnivesCross",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.165]_L1_DCVAH_CUTS_TWC_DB.IN_BarFromCVR",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.167]_L1_DCVAH_CUTS_TWC_DB.IN_VTail",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.182]_E35PLC01 Mat.det. HMD34 CVRD entry L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.183]_E35PLC01 Mat.det. HMD35 TWC1A entry",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.189]_L1_DCVAH_CUTS_TWC_DB.EnoughTailLeft",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.200]_E35PLC01 Mat.det. HMD36 TWC1B entry",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.210]_L1_PR4 Rolls closing/opening, sol.valve",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.219]_DCVAH L1 SYNC cycle L1/L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:12]_OPT L1 INT Remaining length before Div shear",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:14]_L1_DCVRD  Out.Tail Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:15]_L1_DCVRD Tracking BLST_Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:16]_L1_DCVRD Tracking BLST_ForceValue",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:17]_L1_DCVRD_First Head Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:18]_L1_DCVAH First Head Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:19]_L1_DCVAH New Head Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:20]_L1_DCVAH Tail Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:21]_L1_DCVAH Remain Length before L1_CVAH",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:24]_L1_DCVAH_CUTS_TWC_DB.IN_TailPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:46]_OPT Full Size Bars L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:47]_OPT Last Bar Length L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:49]_L1_DCVAH__OPT_TAIL LENGTH",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:58]_OPT L1 DCVAH Choosen Div length",
+        "weight": 1
+    },
+    {
+        "sensor": "[4:1]_PID_L1_DCVRD_POS_ENC",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:33]_TB1A Head Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:34]_TB1A Tail Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:35]_TB1B Head Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:36]_TB1B Tail Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:47]_TB1A Motor Current",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:48]_TB1B Motor Current",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:55]_TWC 1A Speed reference",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:56]_TWC 1A Speed feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:57]_TWC 1B Speed reference",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:58]_TWC 1B Speed feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:59]_TWC1A Torque Feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:60]_TWC1B Torque Feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.28]_TB1A Rolls close cmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.29]_TB1A Rolls close Hi pres",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.30]_TB1B Rolls close cmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.31]_TB1B Rolls close Hi pres",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.35]_TB1A Breaking cycle Active",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.36]_TB1B Breaking cycle Active",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.57]_HMD TWC1A On Delay (for cobble detection)",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.58]_HMD TWC1B On Delay (for cobble detection)",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.193]_E35PLC01 Mat.det. HMD38 TWC1A entry (HW Interrupt)",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.194]_E35PLC01 Mat.det. HMD38 TWC1B entry (HW Interrupt)",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:30]_L1 bar temperature",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.157]_HMD 31 Head Wind Enable L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.158]_HMD 31 Tail Wind Enable L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:0]_L2_DCVRD Act Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:1]_L2_DCVAH Act Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:2]_L2_PR5  Act Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:3]_L2_PR5 Set Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:4]_L2_PR5 Act Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:5]_L2_PR5 Set Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:8]_L2_DCVRD Speed Ref to Drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:12]_L2_DCVAH Move Counts",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:17]_E36_DCVAH_TheorPos",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:24]_L2_PR4_ActTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:25]_L2_PR4_ActSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:26]_L2_PR4_SetSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:43]_L2_DCVRD Set Position for PID",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:44]_L2_DCVRD Actual Position for PID",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:51]_Calibr speed for L2_DCVAH",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:65]_L2_PR4 Roll Closing Pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:66]_L2_PR5 Roll Closing Pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:70]_L2_DCVAH_Actual Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:71]_L2_DCVAH_Actual Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:72]_L2_DCVAH_Theor Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:74]_L2_DCVAH_Position error",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:75]_L2_DCVAH_Speed Reference",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:76]_L2_CVAH_Actual Rotor position",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:77]_L2_DCVAH_Synchronisation error at cut",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.33]_E36PLC01 Mat.det. HMD37 CVRD entry L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.34]_E36PLC01 Mat.det. HMD38 TWC2A entry",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.35]_E36PLC01 Mat.det. HMD39 TWC2B entry",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.55]_L2_DCVAH  BAXC",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.56]_L2_DCVRD Toward Chopping",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.57]_L2_DCVRD Goto Rolling position",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.58]_L2_DCVRD Goto Chopping position",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.73]_L2_DCVAH SYNC cycle L1/L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.78]_Valid tail before CVAH",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.82]_L2_DCVAH_BAR_TRK_DB.OUT.ValidTailCVAHl2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.100]_L2_DCVAH_CUTS_TWC_DB.IN_VTailBefOptShr",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.103]_L2_DCVAH_CUTS_TWC_DB.IN_BarAtKnivesCrossl2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.105]_L2_DCVRD_BAR_TRK_DB.IncomingTail",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.106]_L2_DCVRD_BAR_TRK_DB.TailCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.107]_L2_DCVAH_CUTS_TWC_DB.EnoughTailLeft",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.108]_L2_DCVAH_CUTS_TWC_DB.IN_VTail",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.112]_L2_DCVRD PH01 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.113]_L2_DCVRD PH1 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.114]_L2_DCVRD PH1 NoViewAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.115]_L2_DCVRD HeadCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.116]_L2_DCVRD TailCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.123]_L2_DCVAH_CUTS_TWC_DB.IN_BarFromCVR",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.127]_L2_DCVRD PH0 Stat",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.135]_L2_DCVRD BarOutofShear",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.136]_HMD 31 Head Wind Enable L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.137]_HMD 31 Taild Wind Enable L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.152]_L2_DCVRD Barat knives cross point",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.157]_E36PLC01 Mat.det. HMD38 TWC2A entry (HW Interrupt)",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.158]_E36PLC01 Mat.det. HMD39 TWC2B entry (HW Interrupt)",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.194]_L2 DCVRD Chopping for long tail",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.200]_L2_DCVRD_WORK_DB.ChpReqOther_TAIL OPT overshoot",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:3]_L2_DCVRD_First Head Position Line 2",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:4]_L2_DCVAH __OPT_TAIL LENGTH",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:5]_L2_DCVAH First Head Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:6]_L2_DCVAH New Head Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:7]_L2_DCVAH Tail PosL2",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:8]_L2_DCVAH Remain Length before CVAH L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:13]_OPT L2 DCVAH Choosen Div length",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:14]_OPT L2 INT Remaining length before Div shear",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:30]_OPT Full Size Bars L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:31]_OPT Last Bar Length L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[7:12]_L2_DCVAH_BAR_TRK_DB.OUT.TailPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[7:13]_L2_DCVRD Tracking BLST_Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[7:14]_L2_DCVRD Tracking BLST_ForceValue",
+        "weight": 1
+    },
+    {
+        "sensor": "[7:15]_L2_DCVAH_CUTS_TWC_DB.IN_TailPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[7:44]_L2_DCVRD  Out.Tail Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[7:45]_PID_DCVRD_POS_ENC",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:49]_TB2A Motor Current",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:50]_TB2B Motor Current",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:51]_TWC 2A Speed reference",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:52]_TWC 2A Speed feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:53]_TWC 2B Speed reference",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:54]_TWC 2B Speed feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:61]_TWC2A Torque Feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:62]_TWC2B Torque Feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.16]_TB2A Rolls close cmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.17]_TB2A Rolls close Hi pres",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.18]_TB2B Rolls close cmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.19]_TB2B Rolls close Hi pres",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.37]_TB2A Breaking cycle Active",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.38]_TB2B Breaking cycle Active",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.59]_HMD TWC2A On Delay (for cobble detection)",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.60]_HMD TWC2B On Delay (for cobble detection)",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:22]_L1_PR2_ActSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:23]_L1_PR2_SetSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:24]_L1_PR2_ActTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:25]_L1_PR3_ActSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:26]_L1_PR3_SetSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:27]_L1_PR3_ActTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:53]_L1_PR2 head tracking close",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:54]_L1_PR3 head tracking close",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:55]_L1_PR2 machine distance from tracking zero point",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:56]_L1_PR3 machine distance from tracking zero point",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:60]_L1_PR2 Roll Closing Pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:61]_L1_PR3 Roll Closing Pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:69]_L1_PR2 ACTUAL CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:70]_L1_PR3 ACTUAL CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.122]_L2_PR4 Rolls closing/opening, sol.valve",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:18]_L2_PR2_ActTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:19]_L2_PR2_ActSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:20]_L2_PR2_SetSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:21]_L2_PR3_ActTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:22]_L2_PR3_ActSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:23]_L2_PR3_SetSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:60]_L2_PR2 head tracking close",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:61]_L2_PR3 head tracking close",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:63]_L2_PR2 Roll Closing Pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:64]_L2_PR3 Roll Closing Pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:68]_L2_PR3 ACTUAL CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.120]_L2_PR2 Rolls closing/opening, sol.valve",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.121]_L2_PR3 Rolls closing/opening, sol.valve",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:0]_L2_PR2 machine distance from tracking zero point",
+        "weight": 1
+    },
+    {
+        "sensor": "[6:1]_L2_PR3 machine distance from tracking zero point",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.113]_HMD 04 Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.114]_HMD 04 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.115]_HMD 05 Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.116]_HMD 05 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.117]_HMD 06 Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.118]_HMD 06 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.119]_HMD 07 Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.128]_HMD 12 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.129]_HMD 13Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.130]_HMD 13 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.131]_HMD 16Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.132]_HMD 16Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.133]_HMD 18Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.134]_HMD 18Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.136]_HMD 07 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.137]_HMD 09 Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.138]_HMD 09 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.139]_HMD 10 Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.140]_HMD 10 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.141]_HMD 11Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.142]_HMD 11 Tail Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.143]_HMD 12 Head Wind Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.230]_E35_HMD7 VISION FAULT",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.231]_E35_HMD7 ON WINDOW FAULT",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.232]_E35_HMD7 OFF WINDOW FAULT",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:41]_Speed calibr factor with HMD L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.36]_CVRD cobble det. inside shear box, LS L2",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.0]_Stand 09 downstream HMD material detection signal (=JD31A09FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.1]_Stand 10 downstream HMD material detection signal (=JD31A10FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.2]_Stand 11 downstream HMD material detection signal (=JD31A11FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.3]_Stand 12 downstream HMD material detection signal (=JD31B01CVS-B011)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.4]_Stand 13 upstream HMD material detection signal (=JD31A12FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.5]_Stand 13 downstream HMD material detection signal (=JD41A13FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.6]_Stand 14 downstream HMD material detection signal (=JD41A14FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.7]_Stand 15 downstream HMD material detection signal (=JD41A15FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.8]_Furnace exit HMD material detection signal (=JD11B01VUF-B002)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.9]_Stand 01 upstream HMD material detection signal (=JD11B01TRU-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.10]_HMD on Fce exit R.Table material detection signal (=JD21A01DOM-B011)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.11]_Stand 02 downstream HMD material detection signal (=JD21A02DVM-B011)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.12]_Stand 04 downstream HMD material detection signal (=JD21A04DVM-B011)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.13]_Stand 06 downstream HMD material detection signal (=JD21A06DVM-B011)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.14]_Stand 07 upstream HMD material detection signal (=JD21B01CVS-B011)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.15]_Stand 08 downstream HMD material detection signal (=JD31A08DVM-B011)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.24]_Stand 16 downstream HMD material detection signal (=JD41A16FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.25]_Stand 17 downstream HMD material detection signal (=JD41A17FAV-B001)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.26]_Stand 18 downstream HMD material detection signal (=JD41A18FAV-B011)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.48]_HMD 24 TMB #3 upstream HMD",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.50]_HMD22 HeadCountUpdate",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.51]_HMD22 TailCountUpdate",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.128]_HMD16TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.129]_HMD17TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.130]_HMD18TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.131]_HMD19TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.132]_S18TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.133]_S17TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.134]_S16TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.135]_S15TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.136]_HMD28TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.137]_HMD29TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.139]_HMD31TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.140]_HMD12TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.141]_HMD13TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.142]_HMD14TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.143]_HMD15TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.167]_HMD01TRK_DB.HMDFiltered",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.184]_HMD01TRK_DB.IN_HMD",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:17]_HMD22 Head Position from upstream Stand",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:18]_HMD22 Tail Position from upstream Stand",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.8]_HMD33_SH3_ExitSide",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.160]_SH3_PH2 (HMD33)",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.103]_E40_COMM_DB.MPIDataToCpu1.Sh1AutoCropCmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:28]_SH1_Act_Position(forPID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:29]_SH1_Teor_Position (for PID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:45]_SH1_WORK_DB DRIVE IN TORQUE FEEDBACK",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:46]_SH1_WORK_DB DRIVE IN SPEED FEEDBACK",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:47]_SH1_WORK_DB DRIVEOUT SPEED REF",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:48]_SH1_WORK_DB DRIVE IN CURRENT FEEDBACK",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.14]_SH1_PH0",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.15]_SH1_PH01",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.64]_SH1_CHOP_CMD_Upstreamshear Conditionl chop req",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.65]_SH1_CHOP_CMD_Upstreamshear Unconditionl chop req",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.67]_SH1_Chop_CMD_PH1_No view alarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.78]_SH1_Chop CMD From E10",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.79]_SH1_CHOP_CMD_Communication E10",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.90]_SH1_Chop Req main flag OB1",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.91]_SH1_CHOP for optimization",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.92]_SH1_CHOP_Pushbutton_MainPulpit",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.99]_SH1_Cut Cycle Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.100]_SH1_Automatic status",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.101]_SH1_Speed Reference Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.102]_SH1_HeadCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.103]_SH1_TailCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.120]_SH1_Bar presence in knives cross point",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.132]_SH1_Valid_Tail",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.168]_SH1 MAnual Cut Wait",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.169]_SH1 MAnual Cut in Act",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.170]_SH1 Manual Cut Request",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.171]_SH1 Cycle in Active (CYC EXEC)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.192]_SH1_WORK_DB.ChpReqMemory",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.193]_SH1 Chop request billet too close",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.194]_SH1 manual chop request",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.195]_Bar presence at SH1 knives cross position",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.208]_SH1 protection cage closed",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.214]_SH1 Limit switch1 open status(1=open;0=close)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.215]_SH1 Limit switch2 open status(1=open;0=close)",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:1]_SH1 Head Cut off Length Accum",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:2]_SH1 Head Cut off Length",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:3]_SH1_HeadPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:4]_SH1_TailPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:11]_OPT_RemLenght_before_SH1",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:20]_SH1_Chopcompared Length",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.99]_E40_COMM_DB.MPIDataToCpu1.Sh2AutoCropCmd",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:0]_DIV_SH2_SpeedRef(Drive Unit)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:1]_DIV_SH2_SpeedFEEDBACK(Drive Unit)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:2]_DSH2_Theor_Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:3]_DSH2_Drive_Speed_Feedback",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:4]_DSH2_Theor_Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:5]_DIVSH2_Point_Curve",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:23]_DIV_SH2_Act_Position (PID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:24]_DSH2 Trigger Point for diverter",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:25]_DIV_SH2_SET_Position (PID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:26]_DSH2_Theor_Speed(Input for PID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:27]_DSH2_Theor_Speed(Out  PID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:30]_SH2_Act_Position(forPID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:31]_SH2_Teor_Position (for PID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:49]_SH2_WORK_DB DRIVE IN TORQUE FEEDBACK",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:50]_SH2_WORK_DB DRIVE IN CURRENT FEEDBACK",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:51]_SH2_WORK_DB DRIVEOUT SPEED REF",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:52]_SH2_WORK_DB DRIVE IN SPEED FEEDBACK",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.0]_DSH2_WORK_DB.CYCLE_Permissive",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.28]_SH2_WORK_DB.BarInTheMill",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.68]_SH2_Chop_CMD_PH1_No view alarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.71]_SH2_Bar in Last stand",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.88]_SH2_CHOP for optimization",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.125]_SH2_HeadCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.126]_SH2_TailCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.127]_SH2_Bar presence in knives cross point",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.133]_SH2_Valid_Tail",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.161]_SH2 HeadCut Pos reached",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.162]_SH2 HeadCut Requested",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.163]_SH2 HeadCut in Active",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.164]_SH2 Head Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.165]_SH2 Incoming Tail",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.166]_SH2 Tail Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.167]_SH2 Bar presence at kn cros point",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.180]_SH2 exit diverter in rolling position *BHI*",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.184]_SH2 PH0",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.185]_SH2 PH01",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.186]_SH2 PH1",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.187]_SH2 PH2",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.189]_SH2 HeadCut Order",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.201]_sh2 exit diverter in rolling position",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:0]_DIV_SH2_Act_Position from encoder",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:5]_SH2_HeadPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:6]_SH2_TailPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:12]_OPT_RemLenght_before_SH2",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:16]_SH2_HedPos_From last stand",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:17]_SH2_Last stand-SH2 Distance",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:21]_SH2_Chopcompared Length",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.85]_Valid Tail PH0A L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.86]_Valid Tail PH0B L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.87]_Valid Tail PH0C L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.104]_Valid Tail PH0D L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.105]_Valid Tail PH0E L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.106]_Valid Tail PH0FL1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.107]_Valid Tail PH0G L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.108]_Valid Tail PH0HL1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.109]_Valid Tail PH0L L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.110]_Valid Tail PH0M L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1.111]_Valid Tail PH0N L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:6]_PH0A Last Headl Distance Measured L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:7]_PH0A Last Tail Distance Measured L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:8]_PH0A Head Dist Count L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:9]_PH0A Tail Dist Count L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:10]_PH0B Head Dist Count L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:11]_PH0B Tail Dist Count L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:14]_PH0D Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:15]_PH0D Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:16]_PH0D_Avg_Dist from HMD to HMD after Last Stand L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:17]_PH0E Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:18]_PH0E Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:19]_PH0E_Avg_Dist from HMD to HMD after Last Stand L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:20]_PH0F Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:21]_PH0F Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:22]_PH0F_Avg_Dist from HMD to HMD after Last Stand L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:23]_PH0A Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:24]_PH0A Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:26]_PH0G Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:27]_PH0G Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:28]_PH0G_Avg_Dist from HMD to HMD after Last Stand L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:29]_PH0H Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:30]_PH0H Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:31]_PH0H_Avg_Dist from HMD to HMD after Last Stand L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:32]_PH0L Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[2:33]_PH0L Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:0]_PH0L_Avg_Dist from HMD to HMD after Last Stand L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:1]_PH0M Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:2]_PH0M Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:3]_PH0M_Avg_Dist from HMD to HMD after Last Stand L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:4]_PH0N Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:5]_PH0N Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:6]_PH0N_Avg_Dist from HMD to HMD after Last Stand L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:11]_PH0B Head Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[3:12]_PH0B Tail Dist L1",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:9]_OPT_Avg_PH0A_Measures Counter",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:10]_OPT_Avg_PH0B_Measures Counter",
+        "weight": 1
+    },
+    {
+        "sensor": "[1:7]_OPT_Avg_PH0C_Measures Counter",
+        "weight": 1
+    },
+    {
+        "sensor": "[5.65]_Valid Tail Before SH3",
+        "weight": 1
+    },
+    {
+        "sensor": "[17.8]_APR_Bar Discharged to CB",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:6]_SH3 Speed Ref to Drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:7]_SH3 Cycle CNTR",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:8]_SH3 PR SET Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:9]_SH3 PR ACT Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:10]_SH3 PR ACT Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:11]_SH3 PR SETTorque",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:12]_QTB_PR Act Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:13]_QTB_PR Set  Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:14]_QTB_PR Act Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:15]_QTB_PR Set Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:32]_SH3_Act_Position(forPID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:33]_SH3_Teor_Position (for PID)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:34]_APR_Set_Discharge Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:35]_APR_Tail_Position_BUF1",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:36]_APR_Tail_Position_BUF2",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:37]_APR_Tail_Position_BUF3",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:38]_APR_Tail_Position_BUF4",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:39]_APR_Tail_Position_BUF5",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:40]_SH3 PID OUTPUT",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:41]_SH3 Speed Calibr factor OWS",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:42]_SH3 Speed Calibr factor measured",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:43]_APR_Headl_Position_BUF1",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:44]_APR_Headl_Position_BUF2",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:55]_SH3 Motor Actual Speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:56]_SH3 Motor Actual Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:57]_SH3 Motor Actual Current",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.10]_ApronDiverter_Valve",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.11]_Apron_LIFT_Valve",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.12]_Apron_LOWERING_Valve",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.36]_SH3_Cut cycle enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.69]_SH3_Chop_CMD_PH1_No view alarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.76]_SH3_HeadCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.117]_SH3_TailCount",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.118]_SH3_Bar presence in knives cross point",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.128]_PH0M_Valid_Tail",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.129]_PH0N_Valid_Tail",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.134]_SH3_Valid_Tail",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.137]_APRONS_WORK_DB.ApronsCycleInAct",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.138]_APRONS_WORK_DB.ApronsCycleEndONS",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.139]_APRONS_WORK_DB.ApronsCycle2ndPhase",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.141]_APRONS_WORK_DB.CYCLE_Permissive",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.142]_APRONS_WORK_DB.NewReqDuringAutCycle",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.143]_PH0L_Valid_Tail",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.145]_SH3  Cycle in active",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.146]_Aprons #1 lifting sol.valve *BHI*",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.147]_Aprons #1 lowering sol.valve *BHI*",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.153]_PH0A_TailUpstream Device 1 Mem",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.154]_PH0A_TailDeviceMem",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.155]_PH0A_Bar at Device",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.173]_SH3 PR Close CMD",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.175]_SH3_PH1 (HMD19)",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.216]_Lifting apron high position",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.217]_Lifting apron mid position",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.218]_Lifting apron low  position",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:7]_SH3_HeadPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:8]_SH3_TailPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:9]_SH3_NEW_HeadPosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:10]_SH3_Produced bar length",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:13]_OPT_RemLenght_before_SH3",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:14]_OPT_RemLenght_before_Div shear",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:18]_SH3_CHOOSEN DIV Lenght",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:24]_PHB_Head_Dist_Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:25]_PHB_Head_Dist_Count_Raw",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:26]_PHB_Tail_Dist_Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:27]_PHB_Tail_Dist_Count_Raw",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:28]_PHC_Head_Dist_Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:29]_PHC_Head_Dist_Count_Raw",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:30]_PHC_Tail_Dist_Count",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:31]_PHC_Tail_Dist_Count_Raw",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:32]_PH0A_Tail_Dist_Count_",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:33]_APR_Headl_Position_BUF3",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:34]_APR_Head_Position_BUF4",
+        "weight": 1
+    },
+    {
+        "sensor": "[22:35]_APR_Headl_Position_BUF5",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:0]_Stand 01_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:1]_Stand 02_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:2]_Stand 03_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:3]_Stand 04_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:4]_Stand 05_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:5]_Stand 06_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:22]_Stand 01_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:23]_Stand 01_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:24]_Stand 02_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:25]_Stand 02_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:26]_Stand 03_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:27]_Stand 03_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:28]_Stand 04_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:29]_Stand 04_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:30]_Stand 05_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:31]_Stand 05_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:32]_Stand 06_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:33]_Stand 06_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:59]_Stand 01_HeadPosition from Upstreamdevice",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.23]_Stand 01_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.40]_Stand 02_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.41]_Stand 03_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.42]_Stand 04_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.43]_Stand 05_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.44]_Stand 06_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.82]_S01TRK_DB.MaterialPresence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.83]_Stand 01 TRK_DB.LoadOn",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.121]_Stand 01 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.122]_Stand 02 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.123]_Stand 03 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.124]_Stand 04 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.125]_Stand 05 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.126]_Stand 06 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.194]_Tension control hmi status",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.249]_Cascade --",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.250]_Cascade -",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.251]_Cascade +",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.252]_Cascade ++",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:13]_Stand 01 HeadTailDifference",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:14]_Stand 01 HeadPosFromRMStart",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:15]_Stand 01 TailPosFromRMStart",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:23]_S1HeadAbsolutePosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:24]_S1TailAbsolutePosition",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:45]_Stand 1 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:46]_Stand 2 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:47]_Stand 3 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:48]_Stand 4 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:49]_Stand 5 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:50]_Stand 6 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:0]_Stand 01_TailPosition from Upstreamdevice",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:1]_Stand 02_HeadPosition from Upstreamdevice",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:2]_Stand 02_TailPosition from Upstreamdevice",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:3]_Stand 03_HeadPosition from Upstreamdevice",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:4]_Stand 03_TailPosition from Upstreamdevice",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:28]_DRM01 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:29]_DRM01 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:30]_DRM02 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:31]_DRM02 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:32]_DRM03 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:33]_DRM03 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:34]_DRM04 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:35]_DRM04 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:36]_DRM05 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:37]_DRM05 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:45]_DRM06 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:46]_DRM06 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:53]_Stand 01 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:54]_Stand 02 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:55]_Stand 03 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:56]_Stand 04 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:57]_Stand 05 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:58]_Stand 06 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:71]_PR0 Motor Current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:72]_PR0 Motor Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:73]_PR0 Motor RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[13:0]_STAND 1 ENTRY BILLET TEMPERATURE",
+        "weight": 1
+    },
+    {
+        "sensor": "[13.8]_PR0_Open Position",
+        "weight": 1
+    },
+    {
+        "sensor": "[13.9]_PR0_ roll closing valve",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:6]_Stand 07_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:7]_Stand 08_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:8]_Stand 09_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:9]_Stand 10_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:10]_Stand 11_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:11]_Stand 12_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:34]_Stand 07_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:35]_Stand 07_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:36]_Stand 08_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:37]_Stand 08_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:38]_Stand 09_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:39]_Stand 09_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:41]_Stand 10_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:42]_Stand 10_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:43]_Stand 11_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:44]_Stand 11_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:45]_Stand 12_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:46]_Stand 12_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:61]_Loop_Height Stand 9-10",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:62]_Loop_Height Stand 10-11",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:63]_Loop_Height Stand 11-12",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.16]_Stand 12 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.29]_Stand 9 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.30]_Stand 10 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.31]_Stand 11 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.32]_Stand 10_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.33]_Stand 11_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.34]_Stand 12_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.45]_Stand 07_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.46]_Stand 08_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.47]_Stand 09_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.87]_S07CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.104]_Stand 08 CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.105]_S09CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.106]_S10CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.107]_S11CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.108]_S12CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.112]_Stand 08 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.113]_Stand 09 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.127]_Stand 07 Tens Ctrl On",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.154]_S12TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.240]_S12TRK_DB.LoadOn",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:51]_Stand 7 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:52]_Stand 8 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:53]_Stand 9 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:54]_Stand 10 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:55]_Stand 11 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:56]_Stand 12 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:47]_DRM07 DC VOLTAGE",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:48]_DRM07 DC CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:59]_Stand 07 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:60]_Stand 08 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:61]_Stand 09 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:62]_Stand 10 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:63]_Stand 11 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:64]_Stand 12 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:12]_Stand 13_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:13]_Stand 14_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:14]_Stand 15_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:15]_Stand 16_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:16]_Stand 17_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:17]_Stand 18_Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:47]_Stand 13_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:48]_Stand 13_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:49]_Stand 14_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:50]_Stand 14_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:51]_Stand 15_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:52]_Stand 15_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:53]_Stand 16_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:54]_Stand 16_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:55]_Stand 17_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:56]_Stand 17_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:57]_Stand 18_LineSpeed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:58]_Stand 18_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:64]_Loop_Height Stand 12-13",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:65]_Loop_Height Stand 13-14",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:66]_Loop_Height Stand 14-15",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:67]_Loop_HeightStand 15-16",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:68]_Loop_Height Stand 16-17",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:69]_Loop_Height Stand 17-18",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.17]_Stand 13 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.18]_Stand 14 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.19]_Stand 15 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.20]_Stand 16 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.21]_Stand 17 downstream looper lifting command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.35]_Stand 13_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.36]_Stand 14_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.37]_Stand 15_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.38]_Stand 16_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.39]_Stand 17_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.56]_Stand 18_Material_Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.68]_Stand 18 Mat Presence",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.96]_Stand 16 CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.97]_Stand 17 CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.98]_Stand 18 CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.109]_S13CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.110]_S14CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.111]_S15CMD_DB.ContinuityAlm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.144]_control enabling Stand 15",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.149]_HMD filter looper Stand 16",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.150]_looper control start Stand 16",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.151]_looper off Stand 16",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.152]_S14TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.153]_S13TRK_DB.ContinuityAlarm",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.157]_HMD filter looper Stand 15",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.158]_looper control start Stand 15",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.159]_looper off Stand 15",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.160]_looper on Stand 17",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.168]_control enabling Stand 16",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.169]_looper on Stand 16",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.170]_control stop Stand 16",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.171]_down stream hmd Stand 16",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.172]_HMD filter looper Stand 17",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.173]_looper control start Stand 17",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.174]_looper off Stand 17",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.175]_control enabling Stand 17",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.241]_S13TRK_DB.LoadOn",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.242]_S14TRK_DB.LoadOn",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.243]_S15TRK_DB.LoadOn",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.244]_S16TRK_DB.LoadOn",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.245]_S17TRK_DB.LoadOn",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.246]_S18TRK_DB.LoadOn",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:32]_Stand 17 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:33]_Stand 18 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:44]_Stand 16 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:57]_Stand 13 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:58]_Stand 14 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:59]_Stand 15 speed ref",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:38]_Stand 13_SET_RPM",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:42]_Stand 16 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:43]_Stand 18 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:65]_Stand 13 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:66]_Stand 14 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:67]_Stand 15 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:68]_Stand 17 current",
+        "weight": 1
+    },
+    {
+        "sensor": "[21:21]_STAND 18 EXIT PYROMETER",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:60]_BC set Interbillet value from HMI",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:70]_Mill Discharge time",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:71]_BC Billet discharge delay after billet discharge command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:72]_BC Interbillet correction value",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:73]_RT_2_FEA_ACT_SPEED",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:74]_RT_1_FEA_SET_SPEED",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:75]_RT_2_FEA_SET_SPEED",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:80]_BILLCALL-WRK_DB.DischargeDelay",
+        "weight": 1
+    },
+    {
+        "sensor": "[9:81]_BILLCALL-WRK_DB.DischDelayCnt",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.27]_Billet call command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.28]_Snap shear at mill entry close [NC]",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.52]_Billet call Pushbutton",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.53]_Furnace disch AUTO",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.54]_Billet call enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.55]_Call time elapsed",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.59]_Billet discharge command",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.69]_BC Interbillet correction enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.72]_Billet in last position",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.73]_BILLET CALL CMD to FURNACE",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.74]_Permissive for Auto Discharging",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.75]_BC Billet discharge command one shot",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.78]_BC Billet discharge command cond. memory",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.81]_BILLCALL-WRK_DB.RouFirstMatPres",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.91]_BC Billet discharge distance reached one shot",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.163]_BILLCALL-WRK_DB.HMD01TailMemo",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.185]_Billet_Too_Close",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.187]_BC Billet Discharge Enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.188]_BC Billet discharge delay elasped",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.189]_BC First Billet Call Memory",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.190]_Only billet Call trigger enable",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.192]_FURNACE EXIT LASER DETECTION",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.203]_RT1 FEA RUN",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.204]_RT2 FEA RUN",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.205]_RT2 EMG SLOW",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.228]_RT2 fast stop",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.229]_RT2 Run consent 1",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.230]_RT2 Run consent 2",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.231]_RT2 Run consent 3",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.232]_RT2 drive communication fault",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.233]_RT2 first stand biting overspeed enabling",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.234]_E10 raedy to roll_F_EXIT",
+        "weight": 1
+    },
+    {
+        "sensor": "[9.248]_Furnace Auto Discharge HMI bit status",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:0]_BILLCALL-WRK_DB.SetInterbillet",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:1]_BILLCALL-WRK_DB.RouInterbilletCnt",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:2]_BILLCALL-WRK_DB.CallTimeCnt",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:3]_BILLCALL-WRK_DB.BilletCallTime",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:4]_BILLCALL-WRK_DB.RouRollTimeCnt",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:5]_CurrentBilletRollingTimeInStand1",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:6]_LastBilletRollingTimeInStand1",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:7]_Fce_Delay",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:22]_BilletDelay",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:29]_RT2 REF SPEED",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:30]_RT1_1 REF SPEED",
+        "weight": 1
+    },
+    {
+        "sensor": "[10:31]_Billets out counter",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:25]_ACT-DATA1_DB.BilletInCnt",
+        "weight": 1
+    },
+    {
+        "sensor": "[12:27]_Billet weight from Furnace PLC",
+        "weight": 1
+    },
+    {
+        "sensor": "[13.13]_FEA Stoper Up Psotion",
+        "weight": 1
+    },
+    {
+        "sensor": "[21.203]_Furnace auto disch permissive from E40C1",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:80]_L2_DCVR_output current feedback from drive",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:2]_TB 1A actual Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:3]_TB 1B actual Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:18]_TB 1A actual rolls pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:21]_TB 1B actual rolls pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:6]_TB 1A actual_speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:7]_TB 1B actual_speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:13]_TWC 1A Act Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:14]_TWC 1B Act Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:63]_TWC_1A Safety time",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:64]_TWC_1B Safety time",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:17]_TB 2A actual Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:0]_TB 2B actual Torque",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:19]_TB 2A actual rolls pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:20]_TB 2B actual rolls pressure",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:9]_TB 2A actual_speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:12]_TB 2B actual_speed",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:15]_TWC 2A Act Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:16]_TWC 2B Act Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:65]_TWC_2A Safety time",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:66]_TWC_2B Safety time",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:57]_Line-2 bar temp before cooling bed",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:28]_TB2A Head Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:29]_TB2A Tail Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:30]_TB2B Head Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[17:31]_TB2B Tail Pos",
+        "weight": 1
+    },
+    {
+        "sensor": "[5:68]_L2_PR3  ACTUAL CURRENT",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:9]_STAND_1_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:10]_STAND_2_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:11]_STAND_3_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:12]_STAND_4_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:13]_STAND_5_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:14]_STAND_6_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:15]_STAND_7_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:16]_STAND_8_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:17]_STAND_9_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:18]_STAND_10_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:19]_STAND_11_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:20]_STAND_12_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:21]_STAND_13_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:22]_STAND_14_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:23]_STAND_15_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:24]_STAND_16_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:25]_STAND_17_ACT_ELONGATION",
+        "weight": 1
+    },
+    {
+        "sensor": "[11:26]_STAND_18_ACT_ELONGATION",
+        "weight": 1
+    }
+]
